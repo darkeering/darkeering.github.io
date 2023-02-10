@@ -4,7 +4,15 @@
 点击右上角转成 json 格式
 
 添加代码
-123456&quot;terminal.integrated.profiles.windows&quot;: &#123;    &quot;gitBash&quot;: &#123;        &quot;path&quot;: &...</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-02-09</span><span class="leancloud_visitors"></span><span>About 97 words, 19 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/02/07/promise/">手写简易promise</a></h3></div><div class="post-content"><p>原 promise 最简单的怎么用？123456789101112131415161718192021222324const p1 = new _Promise((resolve, reject) =&gt; &#123;  console.log(&quot;create promise&quot;);  re...</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-02-07</span><span class="leancloud_visitors"></span><span>About 290 words, 58 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/02/06/hooks-context-state/">react 简化版类似angular service的状态管理</a></h3></div><div class="post-content"><p>原理
+123456&quot;terminal.integrated.profiles.windows&quot;: &#123;    &quot;gitBash&quot;: &#123;        &quot;path&quot;: &...</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-02-09</span><span class="leancloud_visitors"></span><span>About 97 words, 19 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/02/07/promise/">手写简易promise</a></h3></div><div class="post-content"><p>Promise 的能力解决了回调地狱
+
+嵌套调用，第一个函数的返回值是第二个函数的入参（then 的链式调用）
+处理多个并发异步请求（Promise.all）
+
+手写 PromisePromise 的核心
+
+有三个状态 pending、resolved、rejected，一旦改变，不可逆转
+Promise 构造函...</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-02-07</span><span class="leancloud_visitors"></span><span>About 1307 words, 4 min 21 sec  read</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/2023/02/06/hooks-context-state/">react 简化版类似angular service的状态管理</a></h3></div><div class="post-content"><p>原理
 react 的 context.Provider 组件会在子组件创建一个一个上下文，函数子组件总可以通过 useContext 方法来获取 context 传递的数据
 
 实现
