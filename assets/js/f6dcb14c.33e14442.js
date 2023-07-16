@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[5493],{9190:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/darkeering/blog/tags/hello","allTagsPath":"/darkeering/blog/tags","count":2}')}}]);
